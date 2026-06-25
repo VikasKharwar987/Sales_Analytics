@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-customBg: #F5F7FA;
+  --color-primary: #2563EB;
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+}
+
+body {
+  background-color: var(--color-customBg);
+  color: #334155; /* Dark gray text */
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Base adjustments for form elements */
+input, select, textarea {
+  color: #1e293b;
+}
