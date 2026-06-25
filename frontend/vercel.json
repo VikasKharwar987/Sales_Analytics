@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://sales-analytics-lv33.onrender.com"
+      "destination": "https://sales-analytics-lv33.onrender.com/:path*"
     },
     {
       "source": "/((?!api/).*)",
